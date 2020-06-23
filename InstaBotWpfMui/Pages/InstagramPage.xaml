@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="InstaBotWpfMui.Pages.ListPage1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="450">
+    <Grid Style="{StaticResource ContentRoot}">
+        <mui:ModernTab SelectedSource="/Content/InstagramMainPage.xaml" Layout="List">
+            <mui:ModernTab.Links>
+                <mui:Link DisplayName="Start" Source="/Content/InstagramMainPage.xaml" />
+                <mui:Link DisplayName="Accounts" Source="/Content/InstagramAccountsPage.xaml" />
+                <mui:Link DisplayName="M/C Config" Source="/Content/MotherChildConfigurationPage.xaml" />
+                <mui:Link DisplayName="Test" Source="/Content/InstagramTestPage.xaml" />
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+    </Grid>
+</UserControl>
